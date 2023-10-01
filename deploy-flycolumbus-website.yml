@@ -9,13 +9,13 @@
     - name: update ec2 instance
       yum:
         name: "*"
-        state: Latest
+        state: latest
         update_cache: yes
 
     - name: install apache server
       yum:
         name: httpd
-        state: Latest
+        state: latest
 
     - name: change directory to the html directory
       shell: cd /var/www/html

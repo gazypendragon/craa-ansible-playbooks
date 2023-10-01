@@ -1,6 +1,6 @@
 ---
 
-- name: deploy jupiter website
+- name: deploy flycolumbus website
   hosts: all
   become: yes
   become_user: root
